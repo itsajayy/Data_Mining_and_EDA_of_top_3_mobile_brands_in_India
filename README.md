@@ -68,3 +68,13 @@ In the initial data preparation phase, we performed the following tasks:
 1. Data loading and inspection.
 2. Handling missing values.
 3. Data cleaning and formatting.
+
+#### Exploratory Data Analysis
+#### Tool Used - Power Bi Analytics
+EDA involved exploring the sales data to answer key questions, such as:
+- What is the distribution of phone prices?
+- Which phone company has the highest and lowest average cost of models?
+- Which phone company has the highest and lowest average cost of models?
+- Is there a correlation between reviews and ratings?
+- How does the average rating vary among different phone companies?
+- What is the distribution of phone models across different RAM and storage sizes?
