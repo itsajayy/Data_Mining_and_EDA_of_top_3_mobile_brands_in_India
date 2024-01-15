@@ -4,7 +4,7 @@ This data analysis project aims to provide insights into the mobile market in in
 
 ### Data Sources
 
-Mobile Data - The primary dataset used for this analysis is the "top_3_brands.csv" file, containing detailed information about each company in India.
+Mobile Data - The primary dataset used for this analysis is the "brands.csv" file, containing detailed information about each company in India.
 
 ### Tools
   - Python - Web Scraping
