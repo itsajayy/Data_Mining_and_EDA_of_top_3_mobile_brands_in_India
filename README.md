@@ -12,55 +12,27 @@ Mobile Data - The primary dataset used for this analysis is the "top_3_brands.cs
   - SQL Server - Data Analysis
   - PowerBI - Creating reports
 
-#### Web Scraping
+### Web Scraping
 #### Language used - Python
 #### Libraries used - Beautiful Soup, Pandas, Openpyxl
- - Install Required Libraries:
-Make sure you have the necessary libraries installed. You can install them using the following commands:
-```python
-  pip install beautifulsoup4
-  pip install openpyxl
-```
+
 - Save HTML Content:
-  Save the HTML content of the Amazon website by right-clicking on the webpage, selecting "Save As" (or using CTRL+S), and save the file in the same directory as your Python script. Add the file name to the open() function in your code:
+  - Save the Amazon webpage by right-clicking and selecting "Save As" into the same directory as your script.
+  - Update the file name in the 'open()' function in your Python script.
 
-```python
-  with open("your_amazon_page.html", "r", encoding="utf-8") as file:
-```
 - Inspect HTML Structure:
-  Inspect the HTML structure of the saved webpage to identify the relevant elements and their classes. Update the find_all method with the correct HTML tags and class names. For example:
+  - Examine the HTML structure of the saved webpage to identify relevant elements and classes.
+  - Adjust the 'find_all' and 'find' methods in your script based on the HTML structure.
 
-```python
-  product_divs = soup.find_all("div", class_="your-product-container-class")
-```
-- Update Data Extraction:
-  Customize the code to extract the specific data you need from the webpage. Adjust the find methods based on the structure of the HTML. For instance:
-
-```python
-  product_name = div.find("span", class_="your-product-name-class")
-  product_cost = div.find("span", class_="your-product-cost-class")
-```
-- Save to Excel:
-  Provide the desired Excel file name in the excel_file variable. The code will create a new Excel file if it doesn't exist or append data to an existing one.
-
-```python
-excel_file = "your_data_file.xlsx"
-```
 - Run the Script:
-  Execute the Python script in your terminal or IDE. Ensure that the script has the necessary permissions to read and write files in the directory.
+  - Execute the Python script in your terminal or IDE using python your_script.py.
+  - Ensure the script has permissions to read and write files in the directory.
 
-```python 
-  your_script.py
-```
 - Check Excel File:
-  After running the script, check the specified Excel file for the scraped data. The script appends data to the existing file or creates a new one if needed.
+  - After running the script, verify the specified Excel file for the scraped data.
+  - The script appends data to an existing file or creates a new one if needed
 
-```python
-  print(f"Data has been appended to {excel_file}"
-```
-
-
-####  Data Cleaning/Preparation
+###  Data Cleaning/Preparation
 #### Tools Used - Excel
 
 In the initial data preparation phase, we performed the following tasks:
@@ -69,7 +41,7 @@ In the initial data preparation phase, we performed the following tasks:
 2. Handling missing values.
 3. Data cleaning and formatting.
 
-#### Exploratory Data Analysis
+### Exploratory Data Analysis
 #### Tool Used - Power Bi Analytics
 EDA involved exploring the sales data to answer key questions, such as:
 - What is the distribution of phone prices?
@@ -78,3 +50,52 @@ EDA involved exploring the sales data to answer key questions, such as:
 - Is there a correlation between reviews and ratings?
 - How does the average rating vary among different phone companies?
 - What is the distribution of phone models across different RAM and storage sizes?
+
+### Data Analysis
+#### Tool Used - Python
+#### Libraries Used - Numpy,Pandas,seaborn
+- Explored essential metrics such as storage capacity, reviews, ratings, RAM, cost, brand, and product details for a comprehensive understanding.
+- Statistical Insights:
+
+  - Utilized numpy for statistical analysis, computing measures like mean, median, and standard deviation for each key metric.
+  -Extracted valuable insights into the distribution and central tendencies of the data.
+- Visualization:
+  - Leveraged matplotlib to create insightful visualizations, including histograms, scatter plots, and bar charts, providing a clear representation of the data trends.
+ 
+### Visualisation
+#### Tool used - Power Bi
+- Created compelling visualizations using Power BI to illustrate trends and patterns in the mobile data.
+- Utilized Power BI's interactive features for dynamic exploration of the dataset.
+- Conducted a comparative analysis across the top 3 mobile brands, presenting visual insights into their strengths and weaknesses in terms of storage, reviews, ratings, RAM, and cost.
+- Derived actionable recommendations based on the visualized findings, providing valuable insights for consumers, manufacturers, and industry analysts.
+
+  ## EDA Conclusion, Recommendation, and Future Improvement
+ ### Conclusion
+
+- **What are the specification that affecting phone prices**
+ from our analysis using the correlation method and seaborn heatmap, the major specification that affecting the price range are 
+       
+   1. **RAM Size** the more expensive phone **(higher price range)** has a higher RAM size. From our analysis we found out that the higher the price range the higher the minimum ram size for phones.
+        
+   2. **Storage** the more expensive phone **(higher price range)** has a higher storage size. From our analysis we found out that the higher the price range the higher the minimum Storage capacity for phones. 
+   
+
+- **Color of the phone and Phone Price Range** 
+In general the color of the phone doesn't really much effect on the price range.
+
+## Recommendation 
+
+**Ram Size**
+
+The main factor that's affecting phone price range is **RAM SIZE** so if a phone so if a smartphone company would like to create a phone in a specific price range, the **RAM Size** is one of the specification that needs to be watched carefully, since it's a feature that affecting the price range of a phone from this dataset
+
+**Storage**
+
+The second factor is **Storage** the more expensive the smartphone the higher the storage sizes it should have, since higher RAM needs more power from the battery, a smartphone company should adjust their storage and ram accordingly since they both are correlated.
+
+**Reviews and Ratings**
+
+The third factor is **Reviews and Ratings**. When purchasing a smartphone, we usually consider the quantity of reviews and ratings the device has received. Depending on how highly rated and how many reviews it has received, a smartphone's likelihood of being purchased What are the benefits and drawbacks of that smartphone, as well as how does it operate?
+
+
+</details>
