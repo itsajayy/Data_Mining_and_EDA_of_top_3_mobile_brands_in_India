@@ -10,7 +10,7 @@
   - [Visualization](#visualization)
   - [EDA Conclusion](#eda-conclusion)
 ### Project Overview
-This data analysis project aims to provide insights into the mobile market in india between the top three companies in India. By analyzing various aspects of the mobile phones data, we seek to identify trends, make data-driven recommendations, and gain a deeper understanding of the phone market in india.
+This data research study attempts to provide insights into the mobile market in India by comparing the top three players. We hope to discover patterns, generate data-driven recommendations, and acquire a better understanding of the phone market in India by evaluating various elements of mobile phone data.
 
 ### Data Sources
 
