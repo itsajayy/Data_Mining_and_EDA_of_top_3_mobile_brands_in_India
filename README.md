@@ -67,7 +67,6 @@ EDA involved exploring the sales data to answer key questions, such as:
 #### Libraries Used - Numpy,Pandas,seaborn
 - Explored essential metrics such as storage capacity, reviews, ratings, RAM, cost, brand, and product details for a comprehensive understanding.
 - By looking below we can see the correlation between all the factors taken into consideration for this analysis:
-    [
 - Statistical Insights:
   - Utilized numpy for statistical analysis, computing measures like mean, median, and standard deviation for each key metric.
   -Extracted valuable insights into the distribution and central tendencies of the data.
@@ -83,6 +82,7 @@ EDA involved exploring the sales data to answer key questions, such as:
 
 <details>
     <summary><h2> Exploratory Data Analysis (Summary)</h2></summary>
+  
   ## EDA Conclusion
  ### Conclusion
 
