@@ -54,6 +54,7 @@ Mobile Data - The primary dataset used for this analysis is the "brands.csv" fil
 
 ### Exploratory Data Analysis
 #### Tool Used - Power Bi Analytics
+#### Goals of the project - 
 EDA involved exploring the sales data to answer key questions, such as:
 - What is the distribution of phone prices?
 - Which phone company has the highest and lowest average cost of models?
@@ -65,8 +66,9 @@ EDA involved exploring the sales data to answer key questions, such as:
 #### Tool Used - Python
 #### Libraries Used - Numpy,Pandas,seaborn
 - Explored essential metrics such as storage capacity, reviews, ratings, RAM, cost, brand, and product details for a comprehensive understanding.
+- By looking below we can see the correlation between all the factors taken into consideration for this analysis:
+    [
 - Statistical Insights:
-
   - Utilized numpy for statistical analysis, computing measures like mean, median, and standard deviation for each key metric.
   -Extracted valuable insights into the distribution and central tendencies of the data.
 - Visualization:
@@ -79,6 +81,8 @@ EDA involved exploring the sales data to answer key questions, such as:
 - Conducted a comparative analysis across the top 3 mobile brands, presenting visual insights into their strengths and weaknesses in terms of storage, reviews, ratings, RAM, and cost.
 - Derived actionable recommendations based on the visualized findings, providing valuable insights for consumers, manufacturers, and industry analysts.
 
+<details>
+    <summary><h2> Exploratory Data Analysis (Summary)</h2></summary>
   ## EDA Conclusion
  ### Conclusion
 
@@ -106,3 +110,5 @@ The second factor is **Storage** the more expensive the smartphone the higher th
 **Reviews and Ratings**
 
 The third factor is **Reviews and Ratings**. When purchasing a smartphone, we usually consider the quantity of reviews and ratings the device has received. Depending on how highly rated and how many reviews it has received, a smartphone's likelihood of being purchased What are the benefits and drawbacks of that smartphone, as well as how does it operate?
+
+</details>
