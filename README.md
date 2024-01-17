@@ -1,4 +1,4 @@
-# Web Scraping and Exploratory Data Analysis of Mobile Phones
+# Delving into Amazon's Best-Selling MObile brands in India through Webscraping and Data Exploration
 
 ## Table of Content
   - [Project Overview](#project-overview)
@@ -19,7 +19,6 @@ Mobile Data - The primary dataset used for this analysis is the "brands.csv" fil
 ### Tools Used
   - Python - Web Scraping
   - Excel - Data Cleaning
-  - SQL Server - Data Analysis
   - PowerBI - Creating reports
 
 ### Web Scraping
@@ -95,9 +94,10 @@ EDA involved exploring the sales data to answer key questions, such as:
         
    2. **Storage** the more expensive phone **(higher price range)** has a higher storage size. From our analysis we found out that the higher the price range the higher the minimum Storage capacity for phones. 
    
-
 - **Color of the phone and Phone Price Range** 
 In general the color of the phone doesn't really much effect on the price range.
+
+- **The Best Selling Smartphones from the top three brands**
 
 ## Recommendation 
 
