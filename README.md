@@ -8,7 +8,7 @@
   - [Data Cleaning and Preparation](#data-cleaning-and-preparation)
   - [Exploratory Data Analysis](#exploratory-data-analysis)
   - [Visualization](#visualization)
-  - [EDA Conclusion](#eda-conclusion)
+  - [EDA Conclusion, Recommendations](#eda-conclusion)
 ### Project Overview
 This data research study attempts to provide insights into the mobile market in India by comparing the top three players. We hope to discover patterns, generate data-driven recommendations, and acquire a better understanding of the phone market in India by evaluating various elements of mobile phone data.
 
@@ -45,7 +45,7 @@ Mobile Data - The primary dataset used for this analysis is the "brands.csv" fil
 ###  Data Cleaning and Preparation
 #### Tools Used - Excel
 
-- I've uploaded the data downloaded from the web scraper and a cleaned data for reference.
+- The web scraped data is saved on a local excel sheet and is further inspected to clean the data.
 - In the initial data preparation phase, we performed the following tasks:
 
   1. Data loading and inspection.
