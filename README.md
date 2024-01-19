@@ -139,22 +139,23 @@ EDA involved exploring the sales data to answer key questions, such as:
       
         
 - **What are the specification that affecting phone prices**
- from our analysis using the correlation method and seaborn heatmap, the major specification that affecting the price range are 
+ from our analysis using the correlation method, the major specification that affecting the price range are
        
    1. **RAM Size** the more expensive phone **(higher price range)** has a higher RAM size. From our analysis we found out that the higher the price range the higher the minimum ram size for phones.
+          
         
-   2. **Storage** the more expensive phone **(higher price range)** has a higher storage size. From our analysis we found out that the higher the price range the higher the minimum Storage capacity for phones. 
+   3. **Storage** the more expensive phone **(higher price range)** has a higher storage size. From our analysis we found out that the higher the price range the higher the minimum Storage capacity for phones. 
    
 - **Color of the phone and Phone Price Range** 
-In general the color of the phone doesn't really much effect on the price range.
-
-- **The Best Selling Smartphones from the top three brands**
+- In general the color of the phone doesn't really much effect on the price range.
+- But with a large variety of colors offered by Samsung there are more options for the buyers to customize the phone to their liking which might increase the number of sales.
+- Larger variety of phone colors include a larger catalogue of phone which can be seen from the products available on Samsung was 397 while as apple was the least at 89.
 
 ## Recommendation 
 
 **Ram Size**
 
-The main factor that's affecting phone price range is **RAM SIZE** so if a phone so if a smartphone company would like to create a phone in a specific price range, the **RAM Size** is one of the specification that needs to be watched carefully, since it's a feature that affecting the price range of a phone from this dataset
+The main factor that's affecting phone price range is **RAM SIZE** so if a phone so if a smartphone company would like to create a phone in a specific price range, the **RAM Size** is one of the specification that needs to be watched carefully, since it's a feature that affecting the price range of a phone from this dataset.
 
 **Storage**
 
