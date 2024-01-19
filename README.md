@@ -14,7 +14,7 @@ This data research study attempts to provide insights into the mobile market in 
 
 ### Data Sources
 
-Mobile Data - The primary dataset used for this analysis is the "brands.csv" file, containing detailed information about each company in India.
+Mobile Data - The primary dataset used for this analysis is the "processed_data.csv" file, containing detailed information about each company in India.
 
 ### Tools Used
   - Python - Web Scraping
