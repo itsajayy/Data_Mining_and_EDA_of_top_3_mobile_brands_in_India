@@ -44,12 +44,16 @@ Mobile Data - The primary dataset used for this analysis is the "processed_data.
 ###  Data Cleaning and Preparation
 #### Tools Used - Excel
 
-- The web scraped data is saved on a local excel sheet and is further inspected to clean the data.
+- The web scraped data is saved on a local excel sheet and is further inspected to clean the data, which is presented as follows:
+   ![preprocessed_data](https://github.com/itsajayy/Web_Scraping-and-EDA/assets/135236892/32438e20-ab6c-4fab-81f9-524d7929aa12)
+  
 - In the initial data preparation phase, we performed the following tasks:
 
   1. Data loading and inspection.
   2. Handling missing values.
   3. Data cleaning and formatting.
+  
+ 
 
 ### Exploratory Data Analysis
 #### Tool Used - Power Bi Analytics
