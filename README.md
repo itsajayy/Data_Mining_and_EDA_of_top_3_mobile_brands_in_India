@@ -142,9 +142,10 @@ EDA involved exploring the sales data to answer key questions, such as:
  from our analysis using the correlation method, the major specification that affecting the price range are
        
    1. **RAM Size** the more expensive phone **(higher price range)** has a higher RAM size. From our analysis we found out that the higher the price range the higher the minimum ram size for phones.
-          
-        
-   3. **Storage** the more expensive phone **(higher price range)** has a higher storage size. From our analysis we found out that the higher the price range the higher the minimum Storage capacity for phones. 
+       ![Count of ram vs price range](https://github.com/itsajayy/Web_Scraping-and-EDA/assets/135236892/0ecc0e09-650e-46a4-8118-c94b51388c13)
+  
+   3. **Storage** the more expensive phone **(higher price range)** has a higher storage size. From our analysis we found out that the higher the price range the higher the minimum Storage capacity for phones.
+   4. 
    
 - **Color of the phone and Phone Price Range** 
 - In general the color of the phone doesn't really much effect on the price range.
