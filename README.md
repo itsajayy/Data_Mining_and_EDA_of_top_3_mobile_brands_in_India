@@ -101,8 +101,10 @@ EDA involved exploring the sales data to answer key questions, such as:
  - From the visuals below we can see the most sold smartphoe, the most rated smartphone, the most expensive smartphone as we the cheapest smartphone available on amazon from the top three brands on amazon.
    -    From Apple:
          ![min max apple cost in dataset](https://github.com/itsajayy/Web_Scraping-and-EDA/assets/135236892/0cef367c-707d-4ec1-bd49-d17001f608ad)
+
    - From Samsung:
-  
+         ![min max samsung cost in dataset](https://github.com/itsajayy/Web_Scraping-and-EDA/assets/135236892/777f683f-d9f1-483b-a72c-2952b7a32dc6)
+     
    - From Oppo:
       
       
