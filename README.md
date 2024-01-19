@@ -129,7 +129,11 @@ EDA involved exploring the sales data to answer key questions, such as:
       - A large chunk of products are rated 4 stars the average rating of iphones are much higher than that of Oppo and samsung. A conclusion can be drawn that Apple is highly rated and a more premium smartphone comapred to Oppo and Samsung.
   
   - The same is found out to the three companies with the amount of reviews mentioned:
-      
+        ![count and average product review](https://github.com/itsajayy/Web_Scraping-and-EDA/assets/135236892/8e83e086-357d-4bd6-bc22-0b50d98f23d9)
+    - Samsung is the most Reviewed smartphone brand with average reviews of each products of 2,400 while apple is the least reviewed with average reviews of each products of 5,200. A conclusion can be drawn that Samsung is frequently bought even more than Apple and Oppo products but people who buy apple products tend to review more comapared to other comapnies.
+   
+- We can also see the count of Refurbished and New products offered by all these three products:
+       
 
   
       
