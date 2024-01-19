@@ -1,14 +1,5 @@
 # Delving into Amazon's Best-Selling MObile brands in India through Webscraping and Data Exploration
 
-## Table of Content
-  - [Project Overview](#project-overview)
-  - [Data Sources](#data-sources)
-  - [Tools Used](#tools-used)
-  - [Web Scrapping](#web-scraping)
-  - [Data Cleaning and Preparation](#data-cleaning-and-preparation)
-  - [Exploratory Data Analysis](#exploratory-data-analysis)
-  - [Visualization](#visualization)
-  - [EDA Conclusion, Recommendations](#eda-conclusion)
 ### Project Overview
 This data research study attempts to provide insights into the mobile market in India by comparing the top three players. We hope to discover patterns, generate data-driven recommendations, and acquire a better understanding of the phone market in India by evaluating various elements of mobile phone data.
 
@@ -21,7 +12,9 @@ Mobile Data - The primary dataset used for this analysis is the "processed_data.
   - Excel - Data Cleaning
   - PowerBI - Creating reports
 
-### Web Scraping
+<details>
+  <summary><h2> Web Scraping </h2></summary>
+  
 #### Language used - Python
 #### Libraries used - Beautiful Soup, Pandas, Openpyxl
 
@@ -41,8 +34,12 @@ Mobile Data - The primary dataset used for this analysis is the "processed_data.
   - After running the script, verify the specified Excel file for the scraped data.
   - The script appends data to an existing file or creates a new one if needed
 
-###  Data Cleaning and Preparation
-#### Tools Used - Excel
+</details>
+
+<details>
+    <summary><h2> Data Cleaning and Preparation </h2></summary>
+
+  #### Tools Used - Excel
 
 - The web scraped data is saved on a local excel sheet and is further inspected to clean the data, which is presented as follows:
    ![preprocessed_data](https://github.com/itsajayy/Web_Scraping-and-EDA/assets/135236892/32438e20-ab6c-4fab-81f9-524d7929aa12)
@@ -55,10 +52,12 @@ Mobile Data - The primary dataset used for this analysis is the "processed_data.
 
   ![processed_data](https://github.com/itsajayy/Web_Scraping-and-EDA/assets/135236892/1f74106c-724a-4f3b-901e-e8d4b0229e83)
 The above is the processed and cleaned data.
- 
+</details>
 
-### Exploratory Data Analysis
-#### Tool Used - Power Bi Analytics
+<details>
+    <summary><h2> Exploratory Data Analysis </h2></summary>
+
+  #### Tool Used - Power Bi Analytics
 #### Goals of the project - 
 EDA involved exploring the sales data to answer key questions, such as:
 - What is the distribution of phone prices?
@@ -80,18 +79,27 @@ EDA involved exploring the sales data to answer key questions, such as:
 - Visualization:
   - Leveraged matplotlib to create insightful visualizations, including histograms, scatter plots, and bar charts, providing a clear representation of the data trends.
  
-### Visualization
+</details>
+
+<details>
+    <summary><h2> Visualization </h2></summary>
+
+  ### Visualization
 #### Tool used - Power Bi
 - Created compelling visualizations using Power BI to illustrate trends and patterns in the mobile data.
 - Utilized Power BI's interactive features for dynamic exploration of the dataset.
 - Conducted a comparative analysis across the top 3 mobile brands, presenting visual insights into their strengths and weaknesses in terms of storage, reviews, ratings, RAM, and cost.
 - Derived actionable recommendations based on the visualized findings, providing valuable insights for consumers, manufacturers, and industry analysts.
 
+</details>
+
 <details>
     <summary><h2> Exploratory Data Analysis (Summary)</h2></summary>
   
   ## EDA Conclusion
  ### Conclusion
+ - From the visuals below we can see the most sold smartphoe, the most rated smartphone, the most expensive smartphone as we the cheapest smartphone available on amazon from the top three brands on amazon.
+   -    
 
 - **What are the specification that affecting phone prices**
  from our analysis using the correlation method and seaborn heatmap, the major specification that affecting the price range are 
