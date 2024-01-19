@@ -106,8 +106,10 @@ EDA involved exploring the sales data to answer key questions, such as:
          ![min max samsung cost in dataset](https://github.com/itsajayy/Web_Scraping-and-EDA/assets/135236892/777f683f-d9f1-483b-a72c-2952b7a32dc6)
      
    - From Oppo:
-      
-      
+        ![min max oppo cost in dataset](https://github.com/itsajayy/Web_Scraping-and-EDA/assets/135236892/42641bb3-461c-48f1-afbf-21d6de55c418)
+
+  - We can also see the spectrum of ratings given to each brand.
+        
 
 - **What are the specification that affecting phone prices**
  from our analysis using the correlation method and seaborn heatmap, the major specification that affecting the price range are 
