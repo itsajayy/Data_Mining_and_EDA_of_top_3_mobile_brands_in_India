@@ -99,7 +99,13 @@ EDA involved exploring the sales data to answer key questions, such as:
   ## EDA Conclusion
  ### Conclusion
  - From the visuals below we can see the most sold smartphoe, the most rated smartphone, the most expensive smartphone as we the cheapest smartphone available on amazon from the top three brands on amazon.
-   -    
+   -    From Apple:
+         ![min max apple cost in dataset](https://github.com/itsajayy/Web_Scraping-and-EDA/assets/135236892/0cef367c-707d-4ec1-bd49-d17001f608ad)
+   - From Samsung:
+  
+   - From Oppo:
+      
+      
 
 - **What are the specification that affecting phone prices**
  from our analysis using the correlation method and seaborn heatmap, the major specification that affecting the price range are 
