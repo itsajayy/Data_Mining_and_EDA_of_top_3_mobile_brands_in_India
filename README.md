@@ -130,7 +130,7 @@ EDA involved exploring the sales data to answer key questions, such as:
     <summary><h2> Exploratory Data Analysis (Summary)</h2></summary>
   
   ## Conclusion
- ### Summary/Conclusion
+ ### Results
  - From the visuals below we can see the most sold smartphoe, the most rated smartphone, the price range of all the smartphones provided by them, the most expensive smartphone as we the cheapest smartphone available on amazon from the top three brands on amazon.
    -    From Apple:
          ![min max apple cost in dataset](https://github.com/itsajayy/Web_Scraping-and-EDA/assets/135236892/0cef367c-707d-4ec1-bd49-d17001f608ad)
@@ -199,7 +199,7 @@ The second factor is **Storage** the more expensive the smartphone the higher th
 
 The third factor is **Reviews and Ratings**. When purchasing a smartphone, we usually consider the quantity of reviews and ratings the device has received. Depending on how highly rated and how many reviews it has received, a smartphone's likelihood of being purchased What are the benefits and drawbacks of that smartphone, as well as how does it operate?
 
-## Further Scope
+### Further Scope
 
 1. By taking more factors such as screen size, battery capcity, camera offered we can dive deep into what factors are very crucial when it comes to buy a smart phone.
 2. Build a Machine Learning model which can select a phone for you based on your speicifications.
