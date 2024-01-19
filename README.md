@@ -125,7 +125,11 @@ EDA involved exploring the sales data to answer key questions, such as:
      - From the above graph we can see that the Apple has it's ratings starting from 3 on a scale of 5 while oppo has a few 2 and 1 star ratings compared to samsung.
    
   - The Average Rating and total number of ratings given to each brand is seen:
-        
+        ![count and average product ratings](https://github.com/itsajayy/Web_Scraping-and-EDA/assets/135236892/296ddade-bcd8-4af9-8c69-ef67c7307d14)
+      - A large chunk of products are rated 4 stars the average rating of iphones are much higher than that of Oppo and samsung. A conclusion can be drawn that Apple is highly rated and a more premium smartphone comapred to Oppo and Samsung.
+  
+  - The same is found out to the three companies with the amount of reviews mentioned:
+      
 
   
       
