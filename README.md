@@ -133,8 +133,8 @@ EDA involved exploring the sales data to answer key questions, such as:
     - Samsung is the most Reviewed smartphone brand with average reviews of each products of 2,400 while apple is the least reviewed with average reviews of each products of 5,200. A conclusion can be drawn that Samsung is frequently bought even more than Apple and Oppo products but people who buy apple products tend to review more comapared to other comapnies.
    
 - We can also see the count of Refurbished and New products offered by all these three products:
-       
-
+       ![count of refurbished vs new](https://github.com/itsajayy/Web_Scraping-and-EDA/assets/135236892/928a30a5-01f0-47cd-a454-d835fb8fbbc5)
+     - Samsung has equal number of refurbished and new products while as apple only offers new products.
   
       
         
