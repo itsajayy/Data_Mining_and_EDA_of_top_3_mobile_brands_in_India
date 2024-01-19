@@ -52,7 +52,9 @@ Mobile Data - The primary dataset used for this analysis is the "processed_data.
   1. Data loading and inspection.
   2. Handling missing values.
   3. Data cleaning and formatting.
-  
+
+  ![processed_data](https://github.com/itsajayy/Web_Scraping-and-EDA/assets/135236892/1f74106c-724a-4f3b-901e-e8d4b0229e83)
+The above is the processed and cleaned data.
  
 
 ### Exploratory Data Analysis
