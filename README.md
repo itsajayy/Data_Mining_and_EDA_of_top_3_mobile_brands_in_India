@@ -98,19 +98,38 @@ EDA involved exploring the sales data to answer key questions, such as:
   
   ## EDA Conclusion
  ### Conclusion
- - From the visuals below we can see the most sold smartphoe, the most rated smartphone, the most expensive smartphone as we the cheapest smartphone available on amazon from the top three brands on amazon.
+ - From the visuals below we can see the most sold smartphoe, the most rated smartphone, the price range of all the smartphones provided by them, the most expensive smartphone as we the cheapest smartphone available on amazon from the top three brands on amazon.
    -    From Apple:
          ![min max apple cost in dataset](https://github.com/itsajayy/Web_Scraping-and-EDA/assets/135236892/0cef367c-707d-4ec1-bd49-d17001f608ad)
+        - Most Reviewed Smartphone : Apple iPhone 13
+        - Most Expensive Smartphone: Apple iPhone 15 Pro Max 
+        - Least Expensive Smartphone: Apple iPhone 13
+        - Number of Colors offered: 87
 
    - From Samsung:
          ![min max samsung cost in dataset](https://github.com/itsajayy/Web_Scraping-and-EDA/assets/135236892/777f683f-d9f1-483b-a72c-2952b7a32dc6)
+        - Most Reviewed Smartphone : Samsung Galaxy M21
+        - Most Expensive Smartphone: Samsung Galaxy Z Fold 5
+        - Least Expensive Smartphone: Samsung Guru 1215
+        - Number of Colors offered: 397
      
    - From Oppo:
         ![min max oppo cost in dataset](https://github.com/itsajayy/Web_Scraping-and-EDA/assets/135236892/42641bb3-461c-48f1-afbf-21d6de55c418)
+        - Most Reviewed Smartphone : Oppo F17
+        - Most Expensive Smartphone:  Oppo Find N2 Flip
+        - Least Expensive Smartphone: Oppo A11K
+        - Number of Colors offered: 182
 
-  - We can also see the spectrum of ratings given to each brand.
+  - The spectrum of ratings given to each brand is shown below: 
+        ![count of rating and brand](https://github.com/itsajayy/Web_Scraping-and-EDA/assets/135236892/c7bcf245-eb71-46da-afee-9c00d7692233)
+     - From the above graph we can see that the Apple has it's ratings starting from 3 on a scale of 5 while oppo has a few 2 and 1 star ratings compared to samsung.
+   
+  - The Average Rating and total number of ratings given to each brand is seen:
         
 
+  
+      
+        
 - **What are the specification that affecting phone prices**
  from our analysis using the correlation method and seaborn heatmap, the major specification that affecting the price range are 
        
