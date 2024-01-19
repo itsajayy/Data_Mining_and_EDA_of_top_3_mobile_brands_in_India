@@ -96,8 +96,8 @@ EDA involved exploring the sales data to answer key questions, such as:
 <details>
     <summary><h2> Exploratory Data Analysis (Summary)</h2></summary>
   
-  ## EDA Conclusion
- ### Conclusion
+  ## Conclusion
+ ### Summary/Conclusion
  - From the visuals below we can see the most sold smartphoe, the most rated smartphone, the price range of all the smartphones provided by them, the most expensive smartphone as we the cheapest smartphone available on amazon from the top three brands on amazon.
    -    From Apple:
          ![min max apple cost in dataset](https://github.com/itsajayy/Web_Scraping-and-EDA/assets/135236892/0cef367c-707d-4ec1-bd49-d17001f608ad)
@@ -145,8 +145,8 @@ EDA involved exploring the sales data to answer key questions, such as:
        ![Count of ram vs price range](https://github.com/itsajayy/Web_Scraping-and-EDA/assets/135236892/0ecc0e09-650e-46a4-8118-c94b51388c13)
   
    3. **Storage** the more expensive phone **(higher price range)** has a higher storage size. From our analysis we found out that the higher the price range the higher the minimum Storage capacity for phones.
-   4. 
-   
+        ![storage vs price range](https://github.com/itsajayy/Web_Scraping-and-EDA/assets/135236892/92b01125-31f4-435d-878c-bceea7d68abd)
+
 - **Color of the phone and Phone Price Range** 
 - In general the color of the phone doesn't really much effect on the price range.
 - But with a large variety of colors offered by Samsung there are more options for the buyers to customize the phone to their liking which might increase the number of sales.
@@ -165,5 +165,11 @@ The second factor is **Storage** the more expensive the smartphone the higher th
 **Reviews and Ratings**
 
 The third factor is **Reviews and Ratings**. When purchasing a smartphone, we usually consider the quantity of reviews and ratings the device has received. Depending on how highly rated and how many reviews it has received, a smartphone's likelihood of being purchased What are the benefits and drawbacks of that smartphone, as well as how does it operate?
+
+## Further Scope
+
+1. By taking more factors such as screen size, battery capcity, camera offered we can dive deep into what factors are very crucial when it comes to buy a smart phone.
+2. Build a Machine Learning model which can select a phone for you based on your speicifications.
+3. Build a sentiment analysis model with the reivews and ratings using machine learning.  
 
 </details>
