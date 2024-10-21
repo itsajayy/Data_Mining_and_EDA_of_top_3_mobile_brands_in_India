@@ -1,4 +1,4 @@
-# Delving into Amazon's Best-Selling MObile brands in India through Webscraping and Data Exploration
+# Delving into Amazon's Best-Selling Mobile brands in India through Webscraping and Data Exploration
 
 ### Project Overview
 This data research study attempts to provide insights into the mobile market in India by comparing the top three players. We hope to discover patterns, generate data-driven recommendations, and acquire a better understanding of the phone market in India by evaluating various elements of mobile phone data.
